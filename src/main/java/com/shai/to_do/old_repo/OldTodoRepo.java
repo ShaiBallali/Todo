@@ -51,14 +51,31 @@ public class OldTodoRepo {
     }
 
     public long countByStatus(String status, String persistenceMethod) {
+
         if (status.equals(Status.ALL)) {
             switch (persistenceMethod) {
-                case PersistenceMethod.POSTGRES -> { return postgresRepository.count(); }
-                case PersistenceMethod.MONGO -> { return mongoRepository.count(); }
+                case PersistenceMethod.POSTGRES -> {
+                    return postgresRepository.count();
+                }
+                case PersistenceMethod.MONGO -> {
+                    return mongoRepository.count();
+                }
             }
 
         }
-        return postgresRepository.countByState(status);
+
+        else {
+            switch (persistenceMethod) {
+                case PersistenceMethod.POSTGRES -> {
+                    return postgresRepository.countByState(status);
+                }
+                case PersistenceMethod.MONGO -> {
+                    return mongoRepository.countByState(status);
+                }
+            }
+        }
+
+        return 0;
     }
 
     public List<Todo> findTodoContentByStatusSortedByField(String status, String sortBy, String persistenceMethod) {
