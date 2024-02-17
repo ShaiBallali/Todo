@@ -82,9 +82,9 @@ public class OldTodoRepo {
         List<Todo> filteredTodos = findTodoContentByStatus(status, persistenceMethod);
 
         switch (sortBy) {
-            case SortBy.ID -> { sortById(filteredTodos); }
-            case SortBy.TITLE -> { sortByTitle(filteredTodos); }
-            case SortBy.DUE_DATE -> { sortByDueDate(filteredTodos); }
+            case SortBy.ID -> sortById(filteredTodos);
+            case SortBy.TITLE -> sortByTitle(filteredTodos);
+            case SortBy.DUE_DATE -> sortByDueDate(filteredTodos);
         }
 
         return filteredTodos;
@@ -117,29 +117,14 @@ public class OldTodoRepo {
     }
 
     private void sortById(List<Todo> todoList) {
-        todoList.sort(new Comparator<Todo>() {
-            @Override
-            public int compare(Todo t1, Todo t2) {
-                return t1.getRawid().compareTo(t2.getRawid());
-            }
-        });
+        todoList.sort(Comparator.comparing(Todo::getRawid));
     }
 
     private void sortByTitle (List<Todo> todoList) {
-        todoList.sort(new Comparator<Todo>() {
-            @Override
-            public int compare(Todo t1, Todo t2) {
-                return t1.getTitle().compareTo(t2.getTitle());
-            }
-        });
+        todoList.sort(Comparator.comparing(Todo::getTitle));
     }
 
     private void sortByDueDate (List<Todo> todoList) {
-        todoList.sort(new Comparator<Todo>() {
-            @Override
-            public int compare(Todo t1, Todo t2) {
-                return t1.getDuedate().compareTo(t2.getDuedate());
-            }
-        });
+        todoList.sort(Comparator.comparing(Todo::getDuedate));
     }
 }
