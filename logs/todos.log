@@ -1,0 +1,124 @@
+16-05-2023 23:10:49.049 INFO: Creating new TODO with Title [title1] | request #1 
+16-05-2023 23:10:55.055 INFO: Creating new TODO with Title [title2] | request #2 
+16-05-2023 23:41:40.040 INFO: Creating new TODO with Title [title1] | request #1 
+16-05-2023 23:41:43.043 INFO: Creating new TODO with Title [title2] | request #2 
+10-01-2024 19:54:04.004 INFO: Total TODOs count for state PENDING is 0 | request #1 
+26-01-2024 17:11:10.010 ERROR: Error: Can’t create new TODO that its due date is in the past | request #1 
+26-01-2024 17:11:19.019 INFO: Creating new TODO with Title [New Year] | request #2 
+26-01-2024 17:12:04.004 INFO: Total TODOs count for state ALL is 1 | request #3 
+26-01-2024 17:12:09.009 INFO: Extracting todos content. Filter: PENDING | Sorting by: TITLE | request #4 
+26-01-2024 17:12:36.036 INFO: Update TODO id [1] state to DONE | request #5 
+26-01-2024 17:13:24.024 INFO: Creating new TODO with Title [Reception hours for kaplat] | request #7 
+26-01-2024 17:13:24.024 DEBUG: Currently there are 1 TODOs in the system. New TODO will be assigned with id 2 | request #7 
+26-01-2024 17:13:28.028 INFO: Total TODOs count for state PENDING is 1 | request #8 
+26-01-2024 17:13:32.032 INFO: Removing todo id 2 | request #9 
+26-01-2024 17:13:32.032 DEBUG: After removing todo id [2] there are 1 TODOs in the system | request #9 
+26-01-2024 17:13:59.059 INFO: Update TODO id [1] state to LATE | request #10 
+26-01-2024 17:13:59.059 DEBUG: Todo id [1] state change: DONE --> LATE | request #10 
+26-01-2024 17:14:04.004 INFO: Extracting todos content. Filter: LATE | Sorting by: ID | request #11 
+26-01-2024 17:14:04.004 DEBUG: There are a total of 1 todos in the system. The result holds 1 todos | request #11 
+26-01-2024 17:16:00.000 INFO: Total TODOs count for state ALLl is 0 | request #12 
+26-01-2024 17:16:18.018 INFO: Update TODO id [1] state to DONEx | request #13 
+26-01-2024 17:16:30.030 INFO: Update TODO id [5] state to DONE | request #14 
+26-01-2024 17:16:30.030 ERROR: Error: no such TODO with id 5 | request #14 
+29-01-2024 19:36:23.023 INFO: Creating new TODO with Title [New Year] | request #1 
+29-01-2024 19:36:32.032 INFO: Total TODOs count for state ALL is 1 | request #2 
+29-01-2024 19:36:59.059 INFO: Total TODOs count for state ALL is 0 | request #1 
+29-01-2024 19:37:23.023 INFO: Creating new TODO with Title [New Year] | request #2 
+29-01-2024 19:37:26.026 INFO: Total TODOs count for state ALL is 1 | request #3 
+29-01-2024 19:37:43.043 INFO: Total TODOs count for state ALL is 0 | request #1 
+29-01-2024 19:43:21.021 INFO: Total TODOs count for state ALL is 0 | request #1 
+29-01-2024 21:32:23.023 INFO: Creating new TODO with Title [New Year] | request #1 
+29-01-2024 21:32:32.032 INFO: Total TODOs count for state ALL is 1 | request #2 
+29-01-2024 21:35:13.013 INFO: Total TODOs count for state ALL is 1 | request #1 
+29-01-2024 21:35:15.015 INFO: Total TODOs count for state ALL is 1 | request #2 
+29-01-2024 21:35:41.041 INFO: Total TODOs count for state ALL is 1 | request #1 
+03-02-2024 13:47:57.057 INFO: Total TODOs count for state ALL is 1 | request #1 
+03-02-2024 14:02:37.037 INFO: Total TODOs count for state ALL is 1 | request #1 
+03-02-2024 14:03:06.006 INFO: Removing todo id 1 | request #2 
+03-02-2024 14:03:24.024 INFO: Total TODOs count for state ALL is 0 | request #3 
+03-02-2024 14:07:01.001 INFO: Total TODOs count for state ALL is 0 | request #1 
+03-02-2024 14:07:05.005 INFO: Creating new TODO with Title [New Year] | request #2 
+03-02-2024 14:45:04.004 INFO: Total TODOs count for state ALL is 2 | request #1 
+03-02-2024 15:21:28.028 INFO: Total TODOs count for state ALL is 2 | request #1 
+03-02-2024 15:21:33.033 INFO: Creating new TODO with Title [New Year_2] | request #2 
+13-02-2024 16:00:59.059 INFO: Total TODOs count for state ALL is 2 | request #1 
+13-02-2024 16:15:15.015 INFO: Creating new TODO with Title [New Year_2] | request #1 
+13-02-2024 16:15:47.047 INFO: Removing todo id 3 | request #2 
+13-02-2024 16:15:57.057 INFO: Creating new TODO with Title [New Year_2] | request #3 
+13-02-2024 16:16:02.002 INFO: Total TODOs count for state ALL is 3 | request #4 
+13-02-2024 16:16:06.006 INFO: Extracting todos content. Filter: PENDING | Sorting by: TITLE | request #5 
+13-02-2024 16:16:21.021 INFO: Extracting todos content. Filter: PENDING | Sorting by: ID | request #6 
+13-02-2024 16:16:41.041 INFO: Update TODO id [3] state to DONE | request #7 
+13-02-2024 16:16:50.050 INFO: Total TODOs count for state ALL is 3 | request #8 
+13-02-2024 16:19:29.029 INFO: Update TODO id [3] state to DONE | request #1 
+13-02-2024 16:20:31.031 INFO: Update TODO id [3] state to DONE | request #2 
+13-02-2024 16:22:18.018 INFO: Creating new TODO with Title [Reception hours for kaplat_2] | request #1 
+13-02-2024 16:22:31.031 INFO: Removing todo id 4 | request #2 
+13-02-2024 16:22:44.044 INFO: Update TODO id [3] state to DONE | request #3 
+13-02-2024 16:23:23.023 INFO: Update TODO id [3] state to DONE | request #4 
+13-02-2024 16:23:46.046 INFO: Update TODO id [3] state to DONE | request #1 
+13-02-2024 16:24:10.010 INFO: Total TODOs count for state ALL is 3 | request #2 
+13-02-2024 16:24:17.017 INFO: Extracting todos content. Filter: PENDING | Sorting by: ID | request #3 
+13-02-2024 16:24:34.034 INFO: Extracting todos content. Filter: ALL | Sorting by: ID | request #4 
+13-02-2024 16:34:49.049 INFO: Total TODOs count for state ALL is 3 | request #1 
+13-02-2024 16:34:54.054 INFO: Extracting todos content. Filter: ALL | Sorting by: ID | request #2 
+13-02-2024 16:35:21.021 INFO: Extracting todos content. Filter: ALL | Sorting by: ID | request #3 
+13-02-2024 16:35:24.024 INFO: Extracting todos content. Filter: ALL | Sorting by: ID | request #4 
+13-02-2024 16:35:42.042 INFO: Extracting todos content. Filter: ALL | Sorting by: ID | request #1 
+13-02-2024 16:36:02.002 INFO: Removing todo id 3 | request #2 
+13-02-2024 21:27:22.022 INFO: Total TODOs count for state ALL is 2 | request #1 
+13-02-2024 21:28:01.001 INFO: Total TODOs count for state ALL is 2 | request #2 
+13-02-2024 21:28:32.032 INFO: Creating new TODO with Title [New Year_2] | request #3 
+13-02-2024 21:30:11.011 INFO: Extracting todos content. Filter: ALL | Sorting by: ID | request #4 
+13-02-2024 21:30:23.023 INFO: Extracting todos content. Filter: ALL | Sorting by: ID | request #5 
+13-02-2024 21:30:52.052 INFO: Extracting todos content. Filter: ALL | Sorting by: ID | request #6 
+13-02-2024 21:31:00.000 INFO: Extracting todos content. Filter: ALL | Sorting by: ID | request #7 
+13-02-2024 21:34:01.001 INFO: Extracting todos content. Filter: ALL | Sorting by: ID | request #1 
+13-02-2024 21:34:11.011 INFO: Update TODO id [3] state to DONE | request #2 
+13-02-2024 21:34:20.020 INFO: Extracting todos content. Filter: ALL | Sorting by: ID | request #3 
+13-02-2024 21:36:58.058 INFO: Update TODO id [3] state to DONE | request #1 
+13-02-2024 21:37:07.007 INFO: Extracting todos content. Filter: ALL | Sorting by: ID | request #2 
+13-02-2024 21:37:33.033 INFO: Total TODOs count for state PENDING is 2 | request #3 
+13-02-2024 21:37:54.054 INFO: Extracting todos content. Filter: PENDING | Sorting by: ID | request #4 
+13-02-2024 21:38:04.004 INFO: Extracting todos content. Filter: ALL | Sorting by: ID | request #5 
+13-02-2024 21:38:11.011 INFO: Removing todo id 3 | request #6 
+13-02-2024 21:38:16.016 INFO: Total TODOs count for state PENDING is 2 | request #7 
+13-02-2024 21:38:20.020 INFO: Extracting todos content. Filter: ALL | Sorting by: ID | request #8 
+13-02-2024 21:38:26.026 INFO: Extracting todos content. Filter: ALL | Sorting by: ID | request #9 
+13-02-2024 21:48:35.035 INFO: Extracting todos content. Filter: ALL | Sorting by: ID | request #10 
+13-02-2024 21:50:46.046 INFO: Creating new TODO with Title [New Year_2] | request #1 
+13-02-2024 21:51:02.002 INFO: Total TODOs count for state PENDING is 3 | request #2 
+13-02-2024 21:51:06.006 INFO: Extracting todos content. Filter: ALL | Sorting by: ID | request #3 
+13-02-2024 21:51:21.021 INFO: Removing todo id 3 | request #4 
+13-02-2024 21:51:26.026 INFO: Total TODOs count for state PENDING is 2 | request #5 
+13-02-2024 21:51:28.028 INFO: Extracting todos content. Filter: ALL | Sorting by: ID | request #6 
+13-02-2024 21:52:50.050 ERROR: Error: no such TODO with id 4 | request #7 
+13-02-2024 21:53:06.006 INFO: Total TODOs count for state PENDING is 2 | request #8 
+13-02-2024 21:53:08.008 INFO: Extracting todos content. Filter: ALL | Sorting by: ID | request #9 
+13-02-2024 21:54:22.022 INFO: Creating new TODO with Title [New Year_2] | request #1 
+13-02-2024 21:54:30.030 INFO: Removing todo id 4 | request #2 
+13-02-2024 21:55:00.000 INFO: Total TODOs count for state PENDING is 2 | request #1 
+13-02-2024 21:55:04.004 INFO: Extracting todos content. Filter: ALL | Sorting by: ID | request #2 
+13-02-2024 21:59:07.007 INFO: Total TODOs count for state ALL is 2 | request #3 
+13-02-2024 21:59:12.012 INFO: Total TODOs count for state ALL is 2 | request #4 
+13-02-2024 21:59:15.015 ERROR: Error: TODO with the title [New Year] already exists in the system | request #5 
+13-02-2024 21:59:22.022 INFO: Total TODOs count for state ALL is 2 | request #6 
+13-02-2024 21:59:27.027 INFO: Total TODOs count for state ALL is 2 | request #7 
+13-02-2024 21:59:30.030 INFO: Total TODOs count for state DONE is 0 | request #8 
+13-02-2024 21:59:36.036 INFO: Update TODO id [2] state to DONE | request #9 
+13-02-2024 21:59:39.039 INFO: Total TODOs count for state DONE is 1 | request #10 
+13-02-2024 21:59:45.045 INFO: Total TODOs count for state DONE is 1 | request #11 
+13-02-2024 21:59:58.058 INFO: Creating new TODO with Title [Buy Groceries] | request #12 
+13-02-2024 22:00:04.004 INFO: Extracting todos content. Filter: PENDING | Sorting by: TITLE | request #13 
+13-02-2024 22:00:22.022 INFO: Extracting todos content. Filter: PENDING | Sorting by: TITLE | request #14 
+13-02-2024 22:00:29.029 INFO: Removing todo id 3 | request #15 
+13-02-2024 22:00:34.034 INFO: Total TODOs count for state PENDING is 1 | request #16 
+13-02-2024 22:00:47.047 INFO: Total TODOs count for state PENDING is 1 | request #17 
+13-02-2024 22:02:11.011 INFO: Total TODOs count for state ALL is 2 | request #18 
+13-02-2024 22:02:14.014 INFO: Extracting todos content. Filter: ALL | Sorting by: ID | request #19 
+13-02-2024 22:02:32.032 INFO: Update TODO id [2] state to PENDING | request #20 
+13-02-2024 22:02:39.039 INFO: Extracting todos content. Filter: ALL | Sorting by: ID | request #21 
+16-02-2024 21:40:06.006 INFO: Total TODOs count for state ALL is 2 | request #22 
+16-02-2024 22:51:03.003 INFO: Total TODOs count for state ALL is 2 | request #23 
+16-02-2024 22:51:38.038 INFO: Total TODOs count for state ALL is 2 | request #24 
